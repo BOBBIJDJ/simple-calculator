@@ -1,26 +1,26 @@
-local simple_calc = {}
+local math_module = {}
 --sum function
-function simple_calc.sum(num1,num2,num3,num4)
+function math_module.sum(num1,num2,num3,num4)
     print(num1.." + "..num2.." + "..num3.." + "..num4)
     print(num1+num2+num3+num4)
 end
 
  --difference function
-function simple_calc.difference(num1,num2,num3,num4)
+function math_module.difference(num1,num2,num3,num4)
     print(num1.." - "..num2.." - "..num3.." - "..num4)
     print(num1-num2-num3-num4)
 end
 
 --multiplication function
-function simple_calc.multiplication(num1,num2,num3,num4)
+function math_module.multiplication(num1,num2,num3,num4)
     print(num1.." * "..num2.." * "..num3.." * "..num4)
     print(num1*num2*num3*num4)
 end
 
 --division function
-function simple_calc.division(num1,num2)
+function math_module.division(num1,num2)
     print(num1.." / "..num2)
     print(num1/num2)
 end
 
-return simple_calc
+return math_module

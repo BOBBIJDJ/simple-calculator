@@ -1,12 +1,5 @@
---including all the functions
-calc = require "calc"
-close = require "close_function"
+--importing functions from calculator.lua
+calculator = require "calculator"
 
---calcolatrice semplice
-calc.main_calc()
-
---end credits and final part
-print("MADE BY BOBBIJDJ")
-
---end function
-close.cls()
+--running the main function
+calculator.calculator()

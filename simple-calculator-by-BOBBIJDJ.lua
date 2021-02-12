@@ -1,5 +1,14 @@
---importing functions from calculator.lua
-calculator = require "calculator"
+--importing start.lua
+start = require "start"
 
---running the main function
-calculator.calculator()
+--importing close.lua
+close = require "close_function"
+
+--running start.strt form start.lua
+start.strt()
+
+--end credits and final part
+print("MADE BY BOBBIJDJ \n")
+
+--end function
+close.cls()

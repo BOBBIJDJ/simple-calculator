@@ -1,8 +1,5 @@
---initializing the module
-local sum = {}
-
 --sum function
-function sum.sum()
+function op.sum()
 
     --first number
     print("type the first number")
@@ -61,6 +58,3 @@ function sum.sum()
 
     end
 end
-
---returning the module
-return sum

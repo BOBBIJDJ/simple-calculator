@@ -1,8 +1,5 @@
---initializing the module
-local division = {}
-
 --division function
-function division.div()
+function op.div()
 
     --first number
     print("type the first number")
@@ -16,6 +13,3 @@ function division.div()
     print(div1.."/"..div2.." = "..div1 / div2)
 
 end
-
---returning the module
-return division

@@ -1,8 +1,5 @@
---initializing the module
-local difference = {}
-
 --difference function
-function difference.dif()
+function op.dif()
 
     --first number
     print("type the first number")
@@ -61,6 +58,3 @@ function difference.dif()
 
     end
 end
-
---returning the module
-return difference

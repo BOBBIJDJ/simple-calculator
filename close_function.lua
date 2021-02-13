@@ -1,9 +1,6 @@
---initializing module
-local close = {}
-
 --the main function
 --a function for closing a script
-function close.cls()
+function close()
 
     print("type ok and press enter to close this window")
 
@@ -48,6 +45,3 @@ function close.cls()
         end
     end
 end
-
---returning the module
-return close

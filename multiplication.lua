@@ -1,8 +1,5 @@
---initializing the module
-local multiplication = {}
-
 --multiplication function
-function multiplication.mul()
+function op.mul()
 
     --first number
     print("type the first number")
@@ -61,6 +58,3 @@ function multiplication.mul()
 
     end
 end
-
---returning the module
-return multiplication

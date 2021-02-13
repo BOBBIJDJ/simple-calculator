@@ -1,14 +1,14 @@
 --importing start.lua
-start = require "start"
+require "start"
 
 --importing close.lua
-close = require "close_function"
+require "close_function"
 
 --running start.strt form start.lua
-start.strt()
+start()
 
 --end credits and final part
 print("MADE BY BOBBIJDJ \n")
 
 --end function
-close.cls()
+close()

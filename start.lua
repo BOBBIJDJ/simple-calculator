@@ -1,14 +1,14 @@
---initializing module
-local start = {}
+--creating an array for all the operation functions
+op = {}
 
 --importing sum.lua , difference.lua , multiplication.lua and division.lua
-sum = require "sum"
-difference = require "difference"
-multiplication = require "multiplication"
-division = require "division"
+require "sum"
+require "difference"
+require "multiplication"
+require "division"
 
 --start function
-function start.strt()
+function start()
 
     --asking the operation
     print("type which operation you want to do (sum, difference, multiplication, division)")
@@ -17,22 +17,22 @@ function start.strt()
     --calling the sum function
     if operation == "sum" then
 
-        sum.sum()
+        op.sum()
 
     --calling the difference function
     elseif operation == "difference" then
 
-        difference.dif()
+        op.dif()
 
     --calling the multiplication function
     elseif operation == "multiplication" then
 
-        multiplication.mul()
+        op.mul()
 
     --calling the division function
     elseif operation == "division" then
 
-        division.div()
+        op.div()
 
     --checking if the answer isn't correct
     else
